@@ -15,6 +15,8 @@
 		C49035591DAB3568005B4EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49035571DAB3568005B4EF1 /* LaunchScreen.storyboard */; };
 		C49035641DAB3568005B4EF1 /* MyTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49035631DAB3568005B4EF1 /* MyTestTests.m */; };
 		C490356F1DAB3568005B4EF1 /* MyTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C490356E1DAB3568005B4EF1 /* MyTestUITests.m */; };
+		C490357F1DAB36C6005B4EF1 /* nextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C490357D1DAB36C6005B4EF1 /* nextViewController.m */; };
+		C49035801DAB36C6005B4EF1 /* nextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C490357E1DAB36C6005B4EF1 /* nextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		C490356A1DAB3568005B4EF1 /* MyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C490356E1DAB3568005B4EF1 /* MyTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTestUITests.m; sourceTree = "<group>"; };
 		C49035701DAB3568005B4EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C490357C1DAB36C6005B4EF1 /* nextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nextViewController.h; sourceTree = "<group>"; };
+		C490357D1DAB36C6005B4EF1 /* nextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nextViewController.m; sourceTree = "<group>"; };
+		C490357E1DAB36C6005B4EF1 /* nextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				C490354D1DAB3568005B4EF1 /* AppDelegate.m */,
 				C490354F1DAB3568005B4EF1 /* ViewController.h */,
 				C49035501DAB3568005B4EF1 /* ViewController.m */,
+				C490357C1DAB36C6005B4EF1 /* nextViewController.h */,
+				C490357D1DAB36C6005B4EF1 /* nextViewController.m */,
+				C490357E1DAB36C6005B4EF1 /* nextViewController.xib */,
 				C49035521DAB3568005B4EF1 /* Main.storyboard */,
 				C49035551DAB3568005B4EF1 /* Assets.xcassets */,
 				C49035571DAB3568005B4EF1 /* LaunchScreen.storyboard */,
@@ -250,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C49035591DAB3568005B4EF1 /* LaunchScreen.storyboard in Resources */,
+				C49035801DAB36C6005B4EF1 /* nextViewController.xib in Resources */,
 				C49035561DAB3568005B4EF1 /* Assets.xcassets in Resources */,
 				C49035541DAB3568005B4EF1 /* Main.storyboard in Resources */,
 			);
@@ -277,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C49035511DAB3568005B4EF1 /* ViewController.m in Sources */,
+				C490357F1DAB36C6005B4EF1 /* nextViewController.m in Sources */,
 				C490354E1DAB3568005B4EF1 /* AppDelegate.m in Sources */,
 				C490354B1DAB3568005B4EF1 /* main.m in Sources */,
 			);
@@ -514,6 +524,7 @@
 				C49035751DAB3568005B4EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C49035761DAB3568005B4EF1 /* Build configuration list for PBXNativeTarget "MyTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +533,7 @@
 				C49035781DAB3568005B4EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C49035791DAB3568005B4EF1 /* Build configuration list for PBXNativeTarget "MyTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +542,7 @@
 				C490357B1DAB3568005B4EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
